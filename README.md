@@ -26,6 +26,10 @@ dotnet sln list
 
 # Open the project in VS Code
 code .
+
+# Run the dotnet project (go inside the API project first, cd API)
+cd API
+dotnet run
 ```
 
 ## 3. Visual Studio Code Extensions
