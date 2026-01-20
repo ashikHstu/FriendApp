@@ -1,4 +1,4 @@
-# Environment Preparation
+# Environment Preparation for FriendApp
 
 ## 1. Prerequisites
 * **.NET SDK**: Download and install from [dotnet.microsoft.com](https://dotnet.microsoft.com/en-us/download)
@@ -26,7 +26,7 @@ dotnet sln list
 
 # Open the project in VS Code
 code .
-
+```
 
 ## 3. Visual Studio Code Extensions
 Install the following extensions to set up your environment:
