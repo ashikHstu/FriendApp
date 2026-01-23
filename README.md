@@ -40,3 +40,9 @@ Install the following extensions to set up your environment:
 * **C# Dev Kit**
 * **Material Icon Theme** (Just to improve the look)
 * **NuGet Gallery**
+
+## 4. dotnet certificate import
+* **dotnet dev-certs https -h**   (to see list of valid operations)
+* **dotnet dev-certs https --check**
+* **dotnet dev-certs https --clean** (to remove the certificate)
+* **dotnet dev-certs https --trust**
