@@ -42,7 +42,29 @@ Install the following extensions to set up your environment:
 * **NuGet Gallery**
 
 ## 4. dotnet certificate import
-* **dotnet dev-certs https -h**   (to see list of valid operations)
-* **dotnet dev-certs https --check**
-* **dotnet dev-certs https --clean** (to remove the certificate)
-* **dotnet dev-certs https --trust**
+```bash
+dotnet dev-certs https -h   (to see list of valid operations)
+dotnet dev-certs https --check
+dotnet dev-certs https --clean (to remove the certificate)
+dotnet dev-certs https --trust
+```
+# Install Nuget Packages:
+# microsoft.entityframeworkcore.Design
+# microsoft.entityframeworkcore.Sqlite  (selecting Sqlite.Core will give error)
+
+# In Terminal:
+dotnet restore   # (to restore nuget packages, which are manually added in csproj)
+
+# VSCode extension:
+# SQLite Viewer  (By Florian Klampfer)
+# Sqlite (alexcvzz)
+
+# from terminal(under API): 
+dotnet tool list -g # (To see the installed package)
+dotnet tool install -g dotnet-ef
+
+dotnet ef migrations add InitialCreate -o Data/Migrations # (to create the databse Migrations)
+
+dotnet ef database update
+
+dotnet new gitignore # (it will create gitignore file)
