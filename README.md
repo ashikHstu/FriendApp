@@ -68,3 +68,6 @@ dotnet ef migrations add InitialCreate -o Data/Migrations # (to create the datab
 dotnet ef database update
 
 dotnet new gitignore # (it will create gitignore file)
+
+# For angular installation
+https://angular.dev/installation
