@@ -71,3 +71,13 @@ dotnet new gitignore # (it will create gitignore file)
 
 # For angular installation
 https://angular.dev/installation
+
+# VS code extensions for angular
+Angular Language Service (by angular.dev)
+ESLint (by microsoft.com)
+
+Search for "Brackets" , in settings from vs code setting, set "auto Closing Brackets" to "always" from the dropdown menu.
+Search for "linked" setting in vs code setting, for auto update html closing tag based on opening tag.
+
+# To Generate trusted certificate
+https://github.com/FiloSottile/mkcert
