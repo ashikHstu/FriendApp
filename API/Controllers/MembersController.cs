@@ -14,7 +14,6 @@ namespace API.Controllers
         {
             var members= await context.Users.ToListAsync();
             return members;
-
         }
 
         [HttpGet("{id}")] // Localhost:5001/api/members/bob-id
